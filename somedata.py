@@ -12,6 +12,7 @@ DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
 
+#categories items
 # catalog1
 catalog1 = Catalog(name="Football")
 
